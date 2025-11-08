@@ -6,8 +6,8 @@ services:
     dockerfilePath: ./Dockerfile
     autoDeploy: true
     envVars:
-      - key: N8N_PORT
-        value: ${PORT}
+      - key: PORT
+        value: 5678
       - key: N8N_PROTOCOL
         value: https
       - key: N8N_HOST
