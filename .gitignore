@@ -1,1 +1,12 @@
+# Archivos sensibles
 Data/key.json
+Data/database.sqlite
+Data/*.log
+Data/*.journal
+Data/binaryData/
+Data/git/
+Data/ssh/
+
+# Archivos temporales
+*.tmp
+*.temp
