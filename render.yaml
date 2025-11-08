@@ -11,6 +11,8 @@ services:
       - key: N8N_PROTOCOL
         value: https
       - key: N8N_HOST
-        value: n8n-agentetelegram.onrender.com
+        value: ${RENDER_EXTERNAL_HOSTNAME}
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-agentetelegram.onrender.com
+        value: https://${RENDER_EXTERNAL_HOSTNAME}
+      - key: WEBHOOK_URL
+        value: https://${RENDER_EXTERNAL_HOSTNAME}
