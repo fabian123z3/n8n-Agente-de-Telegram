@@ -11,4 +11,4 @@ ENV N8N_TRUST_PROXY=true
 
 EXPOSE 10000
 
-CMD ["n8n"]
+CMD ["n8n", "start"]
