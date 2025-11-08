@@ -10,5 +10,3 @@ ENV N8N_PROTOCOL=https
 ENV N8N_TRUST_PROXY=true
 
 EXPOSE 10000
-
-CMD ["/data/packages/cli/bin/n8n", "start"]
