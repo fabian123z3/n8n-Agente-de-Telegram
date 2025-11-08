@@ -1,7 +1,7 @@
 FROM n8nio/n8n:1.117.0
 
 # Copiamos tu carpeta local .n8n con tus workflows
-COPY data /home/node/.n8n
+COPY Data /home/node/.n8n
 
 ENV N8N_USER_FOLDER=/home/node/.n8n
 ENV N8N_PORT=10000
